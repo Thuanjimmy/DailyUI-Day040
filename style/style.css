@@ -1,0 +1,81 @@
+body {
+  background-color: #30475e;
+}
+.grey {
+  color: grey;
+  margin-bottom: 0;
+}
+.name {
+  font-size: 0.75rem;
+  margin-top: 0;
+}
+h2 {
+  margin-bottom: 0;
+}
+h6 {
+  font-size: 0.8rem;
+}
+.baking {
+  margin-top: 0;
+}
+.box {
+  width: 320px;
+  height: 600px;
+  background-color: white;
+  border-radius: 50px;
+  border: #222831 10px solid;
+  margin: 75px auto;
+  padding: 10px;
+  z-index: 0;
+}
+
+.notch {
+  background-color: #222831;
+  width: 160px;
+  height: 30px;
+  border-radius: 75px;
+  position: absolute;
+  top: 75px;
+  right: 640px;
+  z-index: 1;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.picture {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 83px;
+  left: 569px;
+  border-radius: 40px 40px 0 0;
+}
+.time {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+}
+.time1 {
+  padding-right: 10px;
+}
+.cook {
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  font-size: 0.7rem;
+}
+.time2 {
+  z-index: 1;
+  color: white;
+}
+.left {
+  z-index: 1;
+  color: white;
+}
+.test {
+  position: relative;
+  top: 150px;
+}
